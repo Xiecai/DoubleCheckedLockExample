@@ -2,6 +2,9 @@ package demo;
 
 public class Scheme1 {
 
+    /**
+     * volatile 关键字是限定所修饰的变量不适用本地内存,而是直接刷到主存来达到同步效果
+     * */
     private volatile static Scheme1 instance;
 
     public static Scheme1 getInstance() {
